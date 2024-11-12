@@ -28,6 +28,7 @@ A Node.js and Express.js backend API to manage hotel data, including adding, upd
 
 ## Project Structure
 
+```bash
 
 W3-NODE/
 ├── Data/
