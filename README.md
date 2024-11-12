@@ -15,3 +15,12 @@ A Node.js and Express.js backend API to manage hotel data, including adding, upd
 - **Technologies Used**: List of technologies and libraries used in this project, such as Node.js, Express.js, and Jest.
 - **Contributing**: Guidelines for contributing to the project, including branching and commit conventions.
 - **License**: Details on the license for the project, specifying permissions and restrictions.
+
+
+## Features
+- **CRUD Operations**: Create, Read, Update, and Delete hotel entries.
+- **Image Upload**: Upload images for hotels, storing them in a designated directory and associating URLs with hotel records.
+- **Slug Generation**: Automatically generates a slug from the hotel title for unique URL-friendly identifiers.
+- **Validation**: Ensures data integrity for POST and PUT requests.
+- **Error Handling**: Provides meaningful error messages and handles HTTP status codes properly.
+- **Organized Structure**: Follows the MVC pattern for scalable code organization.
