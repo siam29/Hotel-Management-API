@@ -24,3 +24,26 @@ A Node.js and Express.js backend API to manage hotel data, including adding, upd
 - **Validation**: Ensures data integrity for POST and PUT requests.
 - **Error Handling**: Provides meaningful error messages and handles HTTP status codes properly.
 - **Organized Structure**: Follows the MVC pattern for scalable code organization.
+
+
+## Project Structure
+
+
+W3-NODE/
+├── Data/
+│   └── hotel-id.json             # JSON file for hotel data
+├── Hotel/
+│   ├── Controller/
+│   │   └── hotelController.js     # Handles hotel-related request logic
+│   ├── Models/
+│   │   └── hotelModel.js          # Manages data operations for hotels
+│   ├── Routes/
+│   │   └── hotelRoutes.js         # Defines hotel-related API routes
+├── UnitTest/
+│   └── server.test.js             # Unit tests for API endpoints
+├── uploads/                       # Directory for uploaded images
+├── node_modules/
+├── package.json
+├── package-lock.json
+└── server.js                      # Main server file
+
